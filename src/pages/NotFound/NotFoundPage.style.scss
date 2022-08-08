@@ -1,0 +1,10 @@
+.not-found {
+  &__title {
+    font-size: 14rem;
+    font-style: italic;
+  }
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,25 @@
+.info {
+  padding: 2rem 0;
+  &__title {
+    text-align: center;
+  }
+  &__select {
+    margin: 3rem auto;
+    width: 100%;
+  }
+  &__airport-info {
+    &__title {
+      text-align: center;
+    }
+    &__data {
+      padding: 1rem;
+      &__item {
+        margin: 1rem 0;
+        &__label {
+          display: inline-block;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
